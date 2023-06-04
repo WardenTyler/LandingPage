@@ -16,8 +16,19 @@ img {
     padding: 0 30px;
 }
 
-.header {
+.header-bg {
     background-color: #1f2937;
+}
+
+.hero-bg {
+    background-color: #1f2937;
+}
+
+.quote-bg {
+    background-color:#e5e7eb;
+}
+
+.header {
     color: #fff;
     min-height: 50px;
     display: flex;
@@ -49,6 +60,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .hero-text h1 {
@@ -70,6 +82,7 @@ img {
     text-decoration: none;
     padding: .5em 1em;
     border-radius: .75em;
+    font-weight: bold;
 }
 
 .cards {
@@ -96,7 +109,57 @@ img {
     display: flex;
     flex-direction: column;
     flex: 1;
-    width: 100px;
+    width: 110px;
     text-align: center;
     margin: 20px 40px;
+}
+
+.quote {
+    padding: 3em 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote figcaption {
+    float: right;
+}
+
+.cta-bg {
+    clear: both;
+    min-height: 60px;
+    padding: 2.5em;
+    background-color: #3882f6;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.cta-title {
+    font-size: 24px;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.cta-btn {
+    border: 2px #fff solid;
+    padding: 0.5em 1.25em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
